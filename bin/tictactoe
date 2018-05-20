@@ -6,5 +6,7 @@ puts "How many players in this game?  1 or 2?"
 user = gets.chomp
 if user == 2
 game = Game.new
+until game.won?
 game.play
+end
 end
