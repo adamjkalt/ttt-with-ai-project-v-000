@@ -7,5 +7,4 @@ user = gets.chomp
 if user = 2
 game = Game.new
 game.play
-
-
+end
