@@ -14,4 +14,3 @@ end
   until game.won?
     game.play
   end
-end
